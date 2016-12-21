@@ -17,11 +17,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	display:inline;
 	font-family: 'Great Vibes', cursive;
 }
+.subtitle{
+	display:block;
+	margin-bottom:20px;
+}
 .btn{
 	color:black;
 	margin-top:10px;
 	margin-bottom:10px;
 	width:49%;
+	background-color: #f46f25;
+	color: #FFF;
+	/* padding: 15px 30px; */
+	font-size: 20px;
+}
 }
 .item, .active{
 	height:100%;
@@ -34,6 +43,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 #firstpic{
 	height:100%;
+}
+.success{
+	background-color:#222;
+	color:#fff;	
 }
 td, th{
 	border:none;
