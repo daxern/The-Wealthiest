@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -62,12 +64,12 @@
 				<div id="carousel-main" class="item active " data-interval="false">
 					<img class="bigpic" id="firstpic" src="images/mansion2.jpg" alt="...">
 					<div class="carousel-caption">
-						<div>
+						<div class="hidden-xs hidden-sm">
 							<h2 class="inline sixem">Top 5</h2>
 							<h3 class="inline fourem"> in the</h3>
 							<h2 class="inline sixem">World</h2>
 						</div>
-						<div id="top5back">
+						<div id="top5back" class="hidden-xs hidden-sm">
 							<table id="top5">
 								<thead>
 									<tr>
@@ -99,6 +101,24 @@
 									</tr>
 									<tr class="trmain">
 										<td class="tdmain">No. 5</td>
+										<td class="tdmain">Unclaimed</td>
+										<td class="tdmain">$0.00</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="mobiletop1" class="visible-xs visible-sm">
+							<table id="top1">
+								<thead>
+									<tr>
+										<th class="thmain">Rank</th>
+										<th class="thmain">Name</th>
+										<th class="thmain">Wealth(USD)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="trmain">
+										<td class="tdmain">No. 1</td>
 										<td class="tdmain">Unclaimed</td>
 										<td class="tdmain">$0.00</td>
 									</tr>
@@ -145,48 +165,47 @@
 		</div>
 		<div class="container">
 			<div class="starter-template">
-			        <div class="row">
-            <div class="col-lg-12">
-                <b id="ranking">Welcome to The Wealthiest.club</b>
-				<i class="subtitle">Share your life today</i>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-globe" aria-hidden="true"></i> Flaunt your Style </h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Stand out and be visible in an elegant and meaningful way. Share your life with other users and climb your way to the top. Set your own personal profile, giving a stylish glimpse into your life, exhibiting anything you choose. <b>Your House, Your Car, Your Collections, Your Life.</b> Put it on display to the world today! </p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-trophy" aria-hidden="true"></i> Climb to Number One<h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Our Global Leaderboard helps distinguish yourself from the others. Reach the top 10 at any point in time and you will gain access to special unique features in customization to help you stand out on the leaderboard. Vie and compete for the top spot, until you're. Show us your worth and start your climb to the top!</p>
-                        <a href="#" class="btn btn-default">Play</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-users" aria-hidden="true"></i> Join us Today</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Become part of The Wealthiest Club! Whether you want to be known as Number One, want to share your piece of life with the rest of the world, or just want to see what others are up to, start off by joining the club. Tell us by signing up. <b>It's FREE!</b></p>
-                        <a href="#" class="btn btn-default">Register</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-		
-		  
-				
+				<div class="row">
+					<div class="col-lg-12">
+						<b id="ranking">Welcome to The Wealthiest.club</b>
+						<i class="subtitle">Share your life today</i>
+					</div>
+					<div class="col-md-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4><i class="fa fa-globe" aria-hidden="true"></i> Flaunt your Style </h4>
+							</div>
+							<div class="panel-body">
+								<p>Stand out and be visible in an elegant and meaningful way. Share your life with other users and climb your way to the top. Set your own personal profile, giving a stylish glimpse into your life, exhibiting anything you choose. <b>Your House, Your Car, Your Collections, Your Life.</b> Put it on display to the world today! </p>
+								<a href="#" class="btn btn-default">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4>
+								<i class="fa fa-trophy" aria-hidden="true"></i> Climb to Number One
+								<h4>
+							</div>
+							<div class="panel-body">
+								<p>Our Global Leaderboard helps distinguish yourself from the others. Reach the top 10 at any point in time and you will gain access to special unique features in customization to help you stand out on the leaderboard. Vie and compete for the top spot, until you're. Show us your worth and start your climb to the top!</p>
+								<a href="#" class="btn btn-default">Play</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4><i class="fa fa-users" aria-hidden="true"></i> Join us Today</h4>
+							</div>
+							<div class="panel-body">
+								<p>Become part of The Wealthiest Club! Whether you want to be known as Number One, want to share your piece of life with the rest of the world, or just want to see what others are up to, start off by joining the club. Tell us by signing up. <b>It's FREE!</b></p>
+								<a href="#" class="btn btn-default">Register</a>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!--<table>
 					<thead>
 						<tr>
@@ -224,31 +243,50 @@
 					</tbody>
 					</table> -->
 			</div>
-			  
 		</div>
+		<section class="social" id="parralax">
+			<div class="parallax">
+				<div class="container">
+					<div class="row">
+						<div class="socialdiv col-md-12">
+							<h2 id="socialheading">Share YOUR <b>Wealth</b></h2>
+							<ul class="sociallist">
+								<li class="jk"><img src="images\Icons\256\facebook.png" width="96" alt=""/></li>
+								<li class="jk"><img src="images\Icons\256\twitter.png" width="96" alt=""/></li>
+								<li class="jk"><img src="images\Icons\256\pinterest.png" width="96" alt=""/></li>
+								<li class="jk"><img src="images\Icons\256\deviantart.png" width="96" alt=""/></li>
+								<li class="jk"><img src="images\Icons\256\instagram.png" width="96" alt=""/></li>
+								<li class="jk"><img src="images\Icons\256\soundcloud.png" width="96" alt=""/></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
 		<section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>The Boi Kusta put something here topkek.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Cyk@!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Blyat
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>What is <i>The Wealthiest?</i></h2>
+						<hr class="star-light">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-2">
+						<p>The Boi Kusta put something here topkek.</p>
+					</div>
+					<div class="col-lg-4">
+						<p>Cyk@!</p>
+					</div>
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<a href="#" class="btn btn-lg btn-outline">
+						<i class="fa fa-download"></i> Blyat
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -13,6 +13,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	border-radius:30px;
 	text-shadow:0 3px 4px rgba(0,0,0,.9);
 }
+.socialdiv{
+	margin-top:150px;
+}
 .inline{
 	display:inline;
 	font-family: 'Great Vibes', cursive;
@@ -31,15 +34,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	/* padding: 15px 30px; */
 	font-size: 20px;
 }
+.parallax {
+    background-image: url("images/Sunset.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align:center;
 }
 .item, .active{
 	height:100%;
 }
+.sociallist{
+	list-style:none;
+	text-align:center;
+	display:inline-block;
+}
+div ul li{
+	float:left;
+	margin-right:5px;
+}
 .p, p{
 	text-align:center;
 }
+#socialheading{
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:10px;
+	color:#fff;
+}
 #top5back{
-	margin-bottom:100px;
+	margin-bottom:10px;
+}
+#mobiletop1{
+	margin-bottom:5px;
 }
 #firstpic{
 	height:100%;
@@ -166,7 +195,230 @@ only screen and (max-width: 760px),
 	/*
 	Label the data
 	*/
-	td:nth-of-type(1):before { content: "Rank"; }
+	td:nth-of-type(1):before { content: "Rank"; }.h1,
+h1 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5em;
+    color: #ff9000;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+51,ffffff+100&0+0,0.61+52,0+100 */
+    
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 51%, rgba(5, 5, 5, 0.61) 52%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 51%, rgba(5, 5, 5, 0.61) 52%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 51%, rgba(5, 5, 5, 0.61) 52%, rgba(255, 255, 255, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00ffffff', GradientType=1);
+    /* IE6-9 */
+    
+    padding-top: 10px;
+    border-radius: 30px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, .9);
+}
+.inline {
+    display: inline;
+    font-family: 'Great Vibes', cursive;
+}
+.subtitle {
+    display: block;
+    margin-bottom: 20px;
+}
+.btn {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 49%;
+    background-color: #f46f25;
+    color: #FFF;
+    /* padding: 15px 30px; */
+    
+    font-size: 20px;
+}
+.parallax {
+    background-image: url("images/Sunset.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.item,
+.active {
+    height: 100%;
+}
+.sociallist {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+div ul li {
+    float: left;
+    margin-right: 5px;
+}
+.p,
+p {
+    text-align: center;
+}
+#socialheading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+#top5back {
+    margin-bottom: 10px;
+}
+#mobiletop1 {
+    margin-bottom: 5px;
+}
+#firstpic {
+    height: 100%;
+}
+.success {
+    background-color: #222;
+    color: #fff;
+}
+td,
+th {
+    border: none;
+}
+.tdmain {
+    border: none;
+}
+.thmain {
+    border: none;
+}
+.bigpic {
+    height: 100%;
+    width: 100%;
+}
+body {
+    padding-top: 50px;
+    height: 100%;
+}
+html {
+    height: 100%;
+    width: 100%:
+}
+.floatright {
+    float: right;
+}
+#carousel-main {
+    height: 95vh;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+#navbar-colour {
+    padding-left: 5px;
+    color: orange;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+}
+#navbar-white {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+}
+#ranking {
+    font-size: 40px;
+}
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#top5back {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    padding: 10px;
+}
+th {
+    color: white;
+    font-weight: bold;
+}
+td,
+th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.fourem {
+    font-size: 4em;
+}
+.sixem {
+    font-size: 6em;
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Force table to not be like tables anymore */
+    
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        border: 1px solid #ccc;
+    }
+    td {
+        /* Behave  like a "row" */
+        
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    td:before {
+        /* Now like a table header */
+        
+        position: absolute;
+        /* Top/left values mimic padding */
+        
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    /*
+	Label the data
+	*/
+    
+    td:nth-of-type(1):before {
+        content: "Rank";
+    }
+    td:nth-of-type(2):before {
+        content: "Name";
+    }
+    td:nth-of-type(3):before {
+        content: "Wealth";
+    }
+}
 	td:nth-of-type(2):before { content: "Name"; }
 	td:nth-of-type(3):before { content: "Wealth"; }
 
