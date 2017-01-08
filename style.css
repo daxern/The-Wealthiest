@@ -16,9 +16,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .socialdiv{
 	margin-top:150px;
 }
+.jk{
+	opacity:1;
+	transition: 1s;
+    -webkit-transition: 1s;
+}
+.jk:hover{
+	opacity: 0.8;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
 .inline{
 	display:inline;
 	font-family: 'Great Vibes', cursive;
+}
+.nobotmargin{
+	margin-bottom:0px;
 }
 .subtitle{
 	display:block;
@@ -143,6 +156,10 @@ td, th {
   padding: 6px; 
   border: 1px solid #ccc; 
   text-align: left; 
+}
+#socialsmallheading{
+	color:#fff;
+	margin-top:0px;
 }
 .fourem{
 	font-size:4em;
