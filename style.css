@@ -5,17 +5,16 @@
 	color:#ff9000;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+51,ffffff+100&0+0,0.61+52,0+100 */
 background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 51%, rgba(5,5,5,0.61) 52%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 51%,rgba(5,5,5,0.61) 52%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 51%,rgba(5,5,5,0.61) 52%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
-
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 51%,rgba(5,5,5,0.61) 52%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 51%,rgba(5,5,5,0.61) 52%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 	padding-top:10px;
-	border-radius:30px;
 	text-shadow:0 3px 4px rgba(0,0,0,.9);
 }
 .socialdiv{
 	margin-top:150px;
 }
+
 .jk{
 	opacity:1;
 	transition: 1s;
@@ -167,52 +166,18 @@ td, th {
 .sixem{
 	font-size:6em;
 }
+.boxxed{
+	margin-left:auto;
+	margin-right:auto;
+	height:250px;
+	margin-bottom:20px;
+}
 /* 
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
 and also iPads specifically.
 */
-@media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
 
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { 
-		display: block; 
-	}
-	
-	/* Hide table headers (but not display: none;, for accessibility) */
-	thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-	
-	tr { border: 1px solid #ccc; }
-	
-	td { 
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
-		position: relative;
-		padding-left: 50%; 
-	}
-	
-	td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-	}
-	
-	/*
-	Label the data
-	*/
-	td:nth-of-type(1):before { content: "Rank"; }.h1,
 h1 {
     text-align: center;
     font-family: 'Great Vibes', cursive;
@@ -300,8 +265,7 @@ p {
     background-color: #222;
     color: #fff;
 }
-td,
-th {
+td, th {
     border: none;
 }
 .tdmain {
@@ -332,6 +296,7 @@ html {
     padding: 40px 15px;
     text-align: center;
 }
+
 #navbar-colour {
     padding-left: 5px;
     color: orange;
@@ -435,8 +400,4 @@ and also iPads specifically.
     td:nth-of-type(3):before {
         content: "Wealth";
     }
-}
-	td:nth-of-type(2):before { content: "Name"; }
-	td:nth-of-type(3):before { content: "Wealth"; }
-
 }
