@@ -25,12 +25,88 @@ background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 51%, r
     transition: 1s;
     -webkit-transition: 1s;
 }
+.leaderboard{
+	width:100%;
+	height:75vh;
+	background-color:#3e3d3d;
+	margin-top: 50px;
+}
 .inline{
 	display:inline;
 	font-family: 'Great Vibes', cursive;
 }
+.marginleft{
+	margin-left:15px;
+}
+#loginmain{
+	border-width:0 100px;
+	border-style: solid;
+    border-image: url('http://i.imgur.com/UDoforW.png') 0% 50% stretch;
+}
 .nobotmargin{
 	margin-bottom:0px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: center;
+	z-index:100;
+}
+.seperator{
+	border-left:1px solid #CCCCCC !important;
+	height:100%;
+	position:absolute;
+	margin-top:10px;
+}
+#feature{
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	/*! margin-top:50px; */
+}
+#ribbon{
+	z-index:100;
+	position:relative;
+	top:420px;
+	/*! left:30px; */
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.footerindex{
+	margin-bottom:0px;
+}
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+.positioning{
+    position: relative;
+    top: 400px;
+    /*! bottom: 22px; */
+    /*! background-color: red; */
+    color: white;
+    padding: 4px;
+    font-size: 17px;
+    line-height: 18px;
+    margin-left: Auto;
+    margin-right: auto;
+    margin-top: -200px;
+}
+#loginmain{
+	margin-top:150px;
+}
+#user{
+	height:200px;
+	/*! left:150px; */
+	/*! top:50px; */
+	position:relative;
+	z-index:-1000;
+	margin-left:auto;
+	margin-right:auto;
 }
 .subtitle{
 	display:block;
@@ -166,6 +242,7 @@ td, th {
 .sixem{
 	font-size:6em;
 }
+
 .boxxed{
 	margin-left:auto;
 	margin-right:auto;
@@ -198,7 +275,6 @@ h1 {
     /* IE6-9 */
     
     padding-top: 10px;
-    border-radius: 30px;
     text-shadow: 0 3px 4px rgba(0, 0, 0, .9);
 }
 .inline {
